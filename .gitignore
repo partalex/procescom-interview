@@ -1,0 +1,6 @@
+logs/debug.large.log
+logs/error.log
+logs/debug.test.log
+.idea
+**__pycache__/**
+
