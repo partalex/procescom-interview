@@ -46,7 +46,8 @@ try:
     print(f"Time taken: {time.time() - start}")
     for key, value in info.items():
         print(f"{key}: {value}")
-    print(f"File size: {os.path.getsize('debug.large.log') / MB} MB")
+    print(f"File size: {os.path.getsize('debug.large.log') / MB:.2f} MB")
+
 
 except Exception as e:
     print(f"Error opening file: {e}")
